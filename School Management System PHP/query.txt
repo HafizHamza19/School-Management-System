@@ -1,0 +1,4 @@
+$query="insert into data(name,fname,address,city,phone,dateofbirth.month,year,gender,class,email,password)values('$name','$fname','$address','$city','$phone','$dateofbirth','$month','$year','$gender','$class','$email','$password')";
+
+
+$query="insert into user SET name='$name',fname='$fname',address='$address',city='$city',phone='$phone',dateofbirth='$dateofbirth',month='$month',year='$year',gender='$gender',class='$class',emial='$email',password='$password'"; 
